@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>02_Adapter</name>
+=======
+	<name>01_Iterator</name>
+>>>>>>> branch 'master' of https://github.com/ByeongHunJeon/Java_Design_Pattern_Exam.git
 	<comment></comment>
 	<projects>
 	</projects>
