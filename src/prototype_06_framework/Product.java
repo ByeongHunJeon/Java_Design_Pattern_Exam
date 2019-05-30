@@ -1,0 +1,8 @@
+package prototype_06_framework;
+
+public interface Product  extends Cloneable{
+	
+	public abstract void use(String s);
+	public abstract Product createClone();
+
+}
