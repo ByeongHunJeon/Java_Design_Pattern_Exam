@@ -1,16 +1,17 @@
-package builder_07;
+package builder_07_exam;
 
-public class TextBuilder extends Builder {
+public class TextBuilder implements Builder {
 	
 	private StringBuffer buffer = new StringBuffer();			
-
-	@Override
-	public void makeTile(String title) {						
-		// TODO Auto-generated method stub
+	
+	public TextBuilder(String title) {
+		// TODO Auto-generated constructor stub
 		buffer.append("=================================\n");	
 		buffer.append("<"+title+">");							
-		buffer.append("\n");									
+		buffer.append("\n");	
+		
 	}
+
 
 	@Override
 	public void makeString(String str) {						
@@ -42,5 +43,7 @@ public class TextBuilder extends Builder {
 	public String getResult() {
 		return buffer.toString();
 	}
+
+
 	
 }
